@@ -23,4 +23,4 @@ def translit(message):
     bot.reply_to(message, javob)
     
 
-bot.polling(none_stop=True)
+bot.polling()
